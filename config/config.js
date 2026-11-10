@@ -18,3 +18,9 @@ const production = {
     }
   }
 };
+
+module.exports = {
+  development,
+  test: development,
+  production
+};
