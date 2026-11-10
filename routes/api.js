@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const komikController = require('../controllers/komikController');
+const komikController = require('../controller/KomikController');
 
 router.get('/komik', komikController.getAllKomik);
 router.get('/komik/:id', komikController.getKomikById);
